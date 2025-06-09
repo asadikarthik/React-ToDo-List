@@ -5,9 +5,6 @@ import { faEdit, faTrashCanArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 function TodoApp() {
   const [tasks, setTasks] = useState([
-    { text: "Complete OS record", completed: false },
-    { text: "push code to GitHub", completed: false },
-    { text: "Solve 2 DSA Problems", completed: false }
   ]);
   
   const [newTask, setNewTask] = useState("");
